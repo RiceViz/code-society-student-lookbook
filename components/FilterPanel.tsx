@@ -379,7 +379,7 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ onFiltersChange, isLoading = 
 
       {/* Skills */}
       <FormControl mb={2}>
-        <FormLabel>Veteran Status</FormLabel>
+        <FormLabel>Military/Veteran Status</FormLabel>
         <Select
           placeholder="Select veteran status"
           value={filters.veteran || ''}

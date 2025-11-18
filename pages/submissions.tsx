@@ -737,7 +737,7 @@ export default function Submissions() {
                 isLoading={exporting}
                 isDisabled={selectedIds.length === 0}
               >
-                Download Resumes
+                Download Individual Resumes
               </Button>
               <Text color="gray.500" fontSize="sm">
                 {selectedIds.length} selected
